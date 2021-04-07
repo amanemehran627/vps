@@ -1,21 +1,27 @@
-version: 2.1
-
-orbs:
-  python: circleci/python@0.2.1
-
-jobs:
-  build-and-test:
-    executor: python/default
-    steps:
-      - checkout
-      - python/load-cache
-      - python/install-deps
-      - python/save-cache
-      - run:
-          command: ./manage.py test
-          name: Test
-
-workflows:
-  main:
-    jobs:
-      - build-and-test
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEAqc0gAs7Eq4PNBxzBq9Rp6gwdsB9tSBpXBHsJi/krQ/B5pIi8
+M0pqoo2CdMe4LG5oSisoUinIz1Jm4lNJx2qEawu+dcr10GbhGB7bjATro5vglt3p
+BMIw00VkzCpDjfiJo9DVflPBnz0QzLUnekO/Mr9SalWQltqGgYYomKLSwLEnJMSm
+sNMhoomI+9rAF4I/zGLc9pNz4aguM4Zt5A9kSmD5HeXImgT9dynTJQCHoSeGyScO
+CB4u2FlJ7zswXTiAm9RDkOosr9yOH7r5UQWck2+JFHNlGzZ37GRWM5V7y3LXcAye
+MtqfXY8rMCuZt6QhPfw6chudNHwu+PbEuJ67CQIDAQABAoIBAQCVHDPDI24jq99N
+IpyUVzkXNcKQWliuG6tUnPM6PvoWdENuEEEszWmtC5WHFaePJPliQFntJRJZtWPx
+1fARNWHJWwvLBwssElwSwW5MnDmNeCIWehLZgeo8bVDh1S9zqdC80XPZtpVuT8LD
+8UUUog9x8f7er/sD7ix166kUuM9YNAU3hT9v74uQqkosAUBF9q8b3qqFWkdGArAm
+yUei1CorW3QC6WIlOtS4pfKP0NE3E7fX74JY7xGzEChfZNPFuhkIpCdTCqyohCv7
+MlsFV5vSwrBUSBbZCfSDFlNndNf3/Iaq2ESm/Y77tJq3yqml0Ch7lxdZ39xT0lLz
+xkPPPJ09AoGBAPlqXWZBqT3Xv9mHLIIkeWkt/zS4Hk5y4jGJ7E+RpBO6s+HIUpmy
+e0Yu6OtwTy5FOIfBiVnXpIQePLR08z7BxRwhreJU9+Bew0sQBmGnn5pleWuZpASr
+Xe9CDlUx4IZRvOEPNKfUsyAEZUnstcNaRjDtAyCoXazpYjeSGpny5j3jAoGBAK5I
+szkiRYmri0uVNWncftvCJkvuB7MAMMrrmTWJad1U/gnSyU8bXUdCp5m1CuDf91iM
+JR2WkbPKufb4suRM1DImq0+S5oQedNOXb+tyCHPf5s7zabvuk6Vo3h4XFFqMgJpe
+lrD5ahC4PMdQs3PH7NUSb/LiTdsRXW8HDryELbcjAoGBAPchzmPpAbHWWjFG//IA
+BBEU03/AQ79FlByz5eO9ko89+sjoPfgu4njbOE05HivhyK6zNM5BnrCOaWYBT5hK
+VW2XbX0K5gV6wBVbTodqmPlaPKJCPUOnLU9J63u9DRTqXrW95FW7qrU5xccm9b8Y
+bt5Bqkyspw0SvxADA7qw9DQzAoGAbcN1tMcD2pfCi+C2Giz3bHpTWkDYcoDtOe+1
+t0UK+o17zT4G8R5/2dB9881Uw5nqksb43TCmJQDJrGSnbieBAPDftacELTNtSpG2
+uCdCcZATMkWVUvoH3QY11eedNwYEPLTT3TPH/C28gZ8u1f2VCACrpuGmPRErsjBU
+tJ/eltcCgYA/THf7iLJd7mzIN31LJ2ATKy5PsUBYzkZdeCPEP+WfPCaSJQtYuae4
+3s/X5/u5nPXuzr/be8ZvagE+pzAMBMsCwPW9ycHV0pd4jdTp6EKBDhBI9Iq7Aw9T
+t04a3ja+9go7pHPBlf2Hkgc5DQ96Z9tWYbnawdza08gzt8cAzXirXQ==
+-----END RSA PRIVATE KEY-----
